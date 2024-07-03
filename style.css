@@ -1,0 +1,8 @@
+h1{color:red}
+#Menu{ display: flex; justify-content: space-evenly;
+}
+.menuItem{ 
+    display: block;
+    height: 45 px; width: 200 px;
+    background: lavender;
+}
