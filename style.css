@@ -1,8 +1,75 @@
-h1{color:red}
-#Menu{ display: flex; justify-content: space-evenly;
+h1{color: black}
+p{font-family:  "Chewy", system-ui;}
+
+.image_holder{
+    display: flex;
+    background-color: rgb(241, 226, 255);
+    justify-content: center;
+    border-radius: 8px;
 }
-.menuItem{ 
-    display: block;
-    height: 45 px; width: 200 px;
-    background: lavender;
+
+img{
+    width: 2%;
+    height: 2%
 }
+
+
+#logo {
+    border-radius: 100px;
+    flex-basis: 15%;
+    margin: 1%;
+}
+
+
+#Menu{
+    flex-grow: 1;
+    flex-basis: 80%;
+    flex-wrap: nowrap;
+    margin: 0%;
+    background-color: white;
+    border-radius: 1px;
+}
+
+.menu_item {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+
+}
+
+.navbar_link{
+    flex-basis: 70%;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 2%;
+    background-color: rgb(241, 226, 255);
+    font-family:  "Chewy", system-ui;
+    text-align: center;
+}
+
+#featured_products{
+    background-color: rgb(241, 226, 255);
+    padding: 20%;
+    text-align: center;
+}
+
+#page_title{ 
+    background-color: rgb(241, 226, 255);
+    padding: 15px 0px;
+    text-align: center;
+}
+
+#page_content{
+    background-color:rgb(241, 226, 255);
+    padding-top: 15px;
+    padding-bottom: 700px;
+    padding-left: 1400px;
+}
+
+#featured_products h1{ 
+    font-size: 90px ;
+    font-family: "Cherry Swash", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
